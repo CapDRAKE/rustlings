@@ -3,15 +3,16 @@
 // Step 2: Get the tests passing!
 // Execute `rustlings hint if3` for hints!
 
-// I AM NOT DONE
-
 fn compute_fees(price: i32) -> i32 {
     let fees: i32; // (neither mut nor initialization allowed here)
     // * fees for price price lower than 10 is 1
     // * fees for price higher than 10 are 10% rounded down (use / 10)
     // don't change before that line
-    if price < 10 {
+    if price < 20 {
         fees = 1;
+    }
+    else{
+        fees = 4;
     }
     // don't change after that line
     fees
